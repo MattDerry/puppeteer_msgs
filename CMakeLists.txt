@@ -32,6 +32,9 @@ add_service_files(
   PlanarSystemService.srv
   position_request.srv
   speed_command.srv
+  InputTrajectoryError.srv
+  InputTrajectory.srv
+  UserControlParams.srv
   )
 
 
@@ -40,4 +43,3 @@ generate_messages(
   )
 
 catkin_package()
-

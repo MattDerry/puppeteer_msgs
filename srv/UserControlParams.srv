@@ -1,0 +1,5 @@
+# this is a service request to retrieve user control params
+---
+float32 trust_estimate
+float32 cutoff_frequency
+float32 alpha

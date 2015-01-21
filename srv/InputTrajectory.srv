@@ -1,0 +1,4 @@
+# this is a service request to retrieve a trajectory
+---
+geometry_msgs/Point[] ref_trajectory
+float32[] times

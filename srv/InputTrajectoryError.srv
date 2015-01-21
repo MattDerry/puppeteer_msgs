@@ -1,0 +1,6 @@
+# this is a service request to simulate a trajectory and get
+# rms error between desired trajectory and simulated execution)
+geometry_msgs/Point[] ref_trajectory
+float32[] times
+---
+float32 rms
